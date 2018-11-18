@@ -10,7 +10,7 @@
     <body>
         <div id="mainWrapper">
             <div id="title">
-                <h1>And codifier</h1>
+                <h1>Codifier ci anam yu gaaw</h1>
             </div>
             <div id="buildingList">
                 <p> <a href="#"> Pavillon A </a> </p>

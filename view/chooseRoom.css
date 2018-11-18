@@ -1,0 +1,13 @@
+html, body{
+    height: 100%;
+    width:100%;
+}
+
+body{
+    background-color: #1D1D28;
+    display: flex;
+}
+
+#mainWrapper{
+    margin: auto;
+}

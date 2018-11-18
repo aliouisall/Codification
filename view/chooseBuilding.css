@@ -13,14 +13,18 @@ body{
     margin: auto;
 }
 
-p{
+a{
     background-color: #D0003C;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 31%;
+    padding-left:10%;
+    padding-right: 10%; 
 }
 
-body, p{
+body, a{
     color: white;
 }
 
