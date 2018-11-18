@@ -47,3 +47,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     cursor: pointer;
 }
+
+h1{
+    border-bottom: 5px solid white;
+}
