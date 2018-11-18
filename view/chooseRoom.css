@@ -43,3 +43,7 @@ form{
 input[type="submit"]{
     margin: auto;
 }
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
