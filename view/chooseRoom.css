@@ -11,3 +11,7 @@ body{
 #mainWrapper{
     margin: auto;
 }
+
+input[type=submit]{
+    background-color: #D0003C;
+}

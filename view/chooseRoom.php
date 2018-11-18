@@ -13,7 +13,7 @@
                     <h1>Codifier ci anam yu gaaw</h1>
                 </div>
                 <div id="roomList">
-                    <form action="" method="">
+                    <form action="#" method="">
                         <input type="checkbox"> <label for="">Chambre n°10</label><br>
                         <input type="checkbox"> <label for="">Chambre n°11</label><br>
                         <input type="checkbox"> <label for="">Chambre n°12</label><br>
