@@ -10,7 +10,7 @@
 	<body>
 		<div id="mainWrapper">
 			<div id="title">
-				<h1> Title </h1>
+				<h1> And Codifier </h1>
 			</div>
 			<div id="form">
 				<form action="">

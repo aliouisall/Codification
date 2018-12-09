@@ -10,7 +10,7 @@
     <body>
         <div id="mainWrapper">
             <div id="title">
-                <h1>Codifier ci anam yu gaaw</h1>
+                <h1>And Codifier</h1>
             </div>
             <div id="roomList">
                 <form action="">
