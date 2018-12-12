@@ -26,7 +26,7 @@
 					<p>
 						<input type="password" name="mdpConf" id="mdpConf" placeholder="Mot de passe de confirmation" required>
 					</p>
-					<p>
+					<p id="validateButton">
 						<input type="submit" value="S'inscrire">
 					</p>
 				</form>

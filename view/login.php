@@ -20,8 +20,14 @@
 					<p>
 						<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required>
 					</p>
-					<p>
+					<p id="pswdForgotten">
+						<a href="#">Mot de passe oublié ?</a>
+					</p>
+					<p id="validateButton">
 						<input type="submit" value="Se connecter">
+					</p>
+					<p id="signUpLink">
+						<a href="#">S'inscrire</a>
 					</p>
 				</form>
 			</div>

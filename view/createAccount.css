@@ -1,21 +1,29 @@
-html, body, #mainWrapper{
+html, body{
     height: 100%;
-    width: 100%;;
+    width: 100%;
+    font-size: 1.3em;
 }
 
 body{
     background-color: #1D1D28;
+    display: flex;
+    color: white;
 }
 
 #mainWrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+}
+h1{
+    color: white;
+    border-bottom: 5px solid white;
 }
 
-#title{
-    color: white;
+#form{
+    display: flex;
+}
+
+form{
+    margin: auto;
 }
 
 input{
@@ -27,11 +35,19 @@ input{
     padding: 10px;
 }
 
+#validateButton{
+    display: flex;
+}
+
 input[type="submit"]{
     background-color: #D0003C;
     border-radius: 10px;
-    position: relative;
-    left: 28%;
     padding-right: 20px;
-    padding-left: 20px; 
+    padding-left: 20px;
+    margin: auto;
 }
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
