@@ -8,9 +8,10 @@
         <title>Choose Room</title>
     </head>
     <body>
+
         <div id="mainWrapper">
             <div id="title">
-                <h1>And Codifier</h1>
+                <h1>Aand Codifier</h1>
             </div>
             <div id="roomList">
                 <form action="">
@@ -27,5 +28,10 @@
                 </form>
             </div>
         </div>
+
+        <script>
+
+        </script>
+
     </body>
 </html>

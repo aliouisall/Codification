@@ -12,6 +12,7 @@ body{
 
 #mainWrapper{
     margin: auto;
+    /* border: 5px solid white; */
 }
 h1{
     color: white;
@@ -51,3 +52,11 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
+.spanError{
+    font-size: 0.6em;
+    color :#D0003C;
+    font-weight: bold;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 10px;
+}
