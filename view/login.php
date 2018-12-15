@@ -10,12 +10,13 @@
 	<body>
 		<div id="mainWrapper">
 			<div id="title">
-				<h1> Aand Codifier </h1>
+				<h1> And Codifier </h1>
 			</div>
 			<div id="form">
 				<form action="">
 					<p>
 						<input type="text" name="login" id="login" placeholder="Login" required>
+						<span id="aidelogin"></spa
 					</p>
 					<p>
 						<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required>
@@ -32,5 +33,24 @@
 				</form>
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			// Contrôle du courriel en fin de saisie
+
+			document.getElementById("login").addEventListener("blur", function (e) {
+
+			    // Correspond à une chaîne de la forme xxx@yyy.zzz
+
+			    var regexCourriel = /.+@.+\..+/;
+
+			    var validiteCourriel = "";
+
+			    if (!regexCourriel.test(e.target.value)) {
+
+			        validiteCourriel = "Adresse invalide!";
+			    }
+			    document.getElementById("aidelogin").textContent = validiteCourriel;
+			});
+		</script>
 	</body>
 </html>
