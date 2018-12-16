@@ -35,6 +35,7 @@
 		</div>
 
 		<script type="text/javascript">
+
 			// Contrôle du courriel en fin de saisie
 
 			document.getElementById("login").addEventListener("blur", function (e) {
@@ -47,10 +48,13 @@
 
 			    if (!regexCourriel.test(e.target.value)) {
 
-			        validiteCourriel = "Adresse invalide!";
+			        validiteCourriel = "Adresse invalide";
 			    }
-			    document.getElementById("aidelogin").textContent = validiteCourriel;
+			    var spanLogin = document.getElementById("aidelogin");
+				spanLogin.textContent = validiteCourriel;
+				spanLogin.className = "spanError";
 			});
+
 		</script>
 	</body>
 </html>

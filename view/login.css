@@ -66,9 +66,12 @@ a:link, a:visited{
     color: white;
     text-decoration: none;
 }
-span {
-    margin-left: 5px;
-    margin-top: 3px;
+
+.spanError{
+    font-size: 0.6em;
+    color :#D0003C;
+    font-weight: bold;
     position: fixed;
-    color: red;
+    margin-left: 10px;
+    margin-top: 10px;
 }
