@@ -49,6 +49,9 @@
 				var spanMail = document.getElementById("spanMail");
 				spanMail.textContent = validateMail;
 				spanMail.className = "spanError";
+				setTimeout(function(){
+					document.getElementById("spanMail").innerHTML = "";
+				}, 5000);
 			});
 
 			// Validation du N° carte étudiant
@@ -62,6 +65,9 @@
 				var spanNumCard = document.getElementById("spanNumCard");
 				spanNumCard.textContent = validateNum;
 				spanNumCard.classList.add("spanError");
+				setTimeout(function(){
+					document.getElementById("spanNumCard").innerHTML = "";
+				}, 5000);
 			});
 
 			// Validation du mot de passe
@@ -74,6 +80,9 @@
 				var spanPswd = document.getElementById("spanPswd")
 				spanPswd.textContent = validatePswd;
 				spanPswd.classList.add("spanError");
+				setTimeout(function(){
+					document.getElementById("spanPswd").innerHTML = "";
+				}, 5000);
 			});
 
 			// Validation du mmot de passe de confirmation
@@ -86,6 +95,9 @@
 				var spanPswdConf = document.getElementById("spanPswdConf");
 				spanPswdConf.textContent = validatePswdConf;
 				spanPswdConf.className = "spanError";
+				setTimeout(function(){
+					document.getElementById("spanPswdConf").innerHTML = "";
+				}, 5000);
 			});
 			
 		</script>
