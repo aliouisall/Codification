@@ -53,6 +53,9 @@
 			    var spanLogin = document.getElementById("aidelogin");
 				spanLogin.textContent = validiteCourriel;
 				spanLogin.className = "spanError";
+				setTimeout(function(){
+					document.getElementById("aidelogin").innerHTML = "";
+				}, 5000);
 			});
 
 		</script>
