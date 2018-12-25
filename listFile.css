@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+}
+body{
+    background-color: #1D1D28;
+    display: flex;
+    color: white;
+}
+#main
+{
+	margin: auto;
+}
+#Div
+{
+	float: left;
+	width: 160px;
+	height: 140px;
+	background-color: #D0003C;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+#Div1
+{
+	float: left;
+	width: 160px;
+	height: 140px;
+	background-color: #D0003C;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+#Div2
+{
+	float: left;
+	width: 160px;
+	height: 140px;
+	background-color: #D0003C;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+#Div3
+{
+	float: left;
+	width: 160px;
+	height: 140px;
+	background-color: #D0003C;
+	border-radius: 7px;
+}
