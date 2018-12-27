@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+}
+body{
+    background-color: #1D1D28;
+    display: flex;
+    color: white;
+}
+
+h1{
+    color: white;
+    border-bottom: 5px solid white;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+#form{
+    display: flex;
+    margin-left: 90px;
+}
+div
+{
+	margin: auto;
+}
+input[type="button"]{
+    background-color: #D0003C;
+    border-radius: 7px;
+    width: 280px;
+    height: 30px;
+    color: #fff;
+    /*margin: auto;*/
+    text-align: left;
+    padding-left: 15px;
+}
+a{
+	background-color: #D0003C;
+    border-radius: 7px;
+    width: 350px;
+    height: 35px;
+    color: #fff;
+    margin: auto;
+    text-align: left;
+    padding-left: 15px;
+    text-decoration: none;
+    display: block;
+    /*float: left;*/
+}
+span{
+	border: 1px solid white;
+	width: 20px;
+	border-radius: 10px;
+	
+}
