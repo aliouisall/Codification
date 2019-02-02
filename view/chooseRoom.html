@@ -11,7 +11,7 @@
 
         <div id="mainWrapper">
             <div id="title">
-                <h1>Aand Codifier</h1>
+                <h1></h1>
             </div>
             <div id="roomList">
                 <form action="">
@@ -30,6 +30,38 @@
         </div>
 
         <script>
+            
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedNumb = 0;
+            var checkedNumbN = 0;
+            
+            function countChecked(){
+                for (var i = 0; i < checkboxes.length; i++){
+                    if (checkboxes[i].checked){
+                        checkedNumb++;
+                    } else {
+                        checkeNumbN++;
+                    }
+                }
+            }
+
+            function disable(){
+                for (var i = 0; i < checkboxes.length; i++){
+                    checkboxes[i].disabled = true;
+                }
+            }
+
+            function enable(){
+                for (var i = 0; i < checkboxes.length; i++){
+                    checkboxes[i].disabled = false;
+                }
+            }
+            
+            for (var i = 0; i < checkboxes.length; i++){
+                checkboxes[i].addEventListener("change", function(){
+                    console.log(checkedNumb);
+                });
+            }
 
         </script>
 
